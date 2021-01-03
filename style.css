@@ -1,0 +1,121 @@
+/* intialisation */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header CSS */
+
+#image {
+  width: 20%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  color: #747474;
+}
+.navbar li {
+  list-style: none;
+}
+
+/* CSS part Introduction */
+.intro-health {
+  margin: 2% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-health div {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+/* title style */
+.intro-health h1 {
+  margin-top: 2%;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.intro-health div p {
+  margin: 2%;
+  line-height: 1.75;
+  color: gray;
+  font-weight: 400;
+}
+h1 {
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+h2 {
+  color: antiquewhite;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+.action div {
+  height: 300px;
+  border-radius: 3%;
+  padding: 2%;
+}
+.patients {
+  background-color: #00ccb1;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+
+.doctors {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  background-color: #3d83df;
+}
+.clinic {
+  width: 28%;
+  background-color: #1b2734;
+  display: flex;
+  flex-direction: column;
+}
+.selector {
+  display: flex;
+  flex-direction: column;
+}
+/* this is second section */
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.liste {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.liste li {
+  list-style: none;
+}
+
+svg {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+#commentaire {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
